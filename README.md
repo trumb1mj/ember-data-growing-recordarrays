@@ -1,6 +1,6 @@
 # Ember-data-growing-recordarrays
 
-When using the .query() method I'm seeing the _internalModel._recordArrays.list array grow on each call.  Using the _internalModel._recordArrays.clear() will empty out that array but even when you do that, the heap still grows.
+When using the Ember.store.query() method I'm seeing the _internalModel._recordArrays.list array grow on each call.  Using the _internalModel._recordArrays.clear() will empty out that array but even when you do that, the heap still grows.
 
 This project demos this behavior.
 
