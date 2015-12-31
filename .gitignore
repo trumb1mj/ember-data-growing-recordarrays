@@ -1,0 +1,28 @@
+.DS_Store
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist/*
+!/dist/.gitkeep
+/tmp/*
+/build/*
+!/build/appdmg.json
+!/build/citytrader.icns
+!/build/TestBkg.png
+
+
+# dependencies
+/node_modules
+/bower_components/*
+/vendor
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+s3_website.yml
+/cache
