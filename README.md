@@ -4,6 +4,15 @@ When using the Ember.store.query() method I'm seeing the _internalModel._recordA
 
 This project demos this behavior.
 
+## Reproducing the issue
+
+* Install dependencies: npm install; bower install
+* Run the server: ember serve
+* Open up the console and watch the array grow in the console message
+
+
+
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
