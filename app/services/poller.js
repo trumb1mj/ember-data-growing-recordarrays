@@ -9,6 +9,6 @@ export default Ember.Service.extend({
       var size = records.get("firstObject").get('_internalModel._recordArrays.size');
       console.log('_internalModel._recordArrays is now ' + size + ' items long.')
     });
-    Ember.run.later(this, this.poll.bind(this), 800);
+    Ember.run.later(this, this.poll.bind(this), 1000);
   }
 });
