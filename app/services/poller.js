@@ -8,6 +8,6 @@ export default Ember.Service.extend({
     this.get("store").query("marketdatum", {}).then(function(records){
       records.destroy();
     });
-    Ember.run.later(this, this.poll.bind(this), 800);
+    Ember.run.later(this, this.poll.bind(this), 1000);
   }
 });
