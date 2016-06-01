@@ -13,4 +13,5 @@
 * Open up the console and watch the array grow in the log message
 * Periodically dump the heap and note the growing size
 
-
+## Tracking the fix
+https://github.com/emberjs/data/issues/4041
